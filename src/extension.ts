@@ -13,29 +13,29 @@ interface ISettings {
 function strToViewColumn(viewCol: string | undefined): vscode.ViewColumn {
 	switch (viewCol) {
 		case 'Active':
-			return vscode.ViewColumn.Active
+			return vscode.ViewColumn.Active;
 		case 'Beside':
-			return vscode.ViewColumn.Beside
+			return vscode.ViewColumn.Beside;
 		case 'One':
-			return vscode.ViewColumn.One
+			return vscode.ViewColumn.One;
 		case 'Two':
-			return vscode.ViewColumn.Two
+			return vscode.ViewColumn.Two;
 		case 'Three':
-			return vscode.ViewColumn.Three
+			return vscode.ViewColumn.Three;
 		case 'Four':
-			return vscode.ViewColumn.Four
+			return vscode.ViewColumn.Four;
 		case 'Five':
-			return vscode.ViewColumn.Five
+			return vscode.ViewColumn.Five;
 		case 'Six':
-			return vscode.ViewColumn.Six
+			return vscode.ViewColumn.Six;
 		case 'Seven':
-			return vscode.ViewColumn.Seven
+			return vscode.ViewColumn.Seven;
 		case 'Eight':
-			return vscode.ViewColumn.Eight
+			return vscode.ViewColumn.Eight;
 		case 'Nine':
-			return vscode.ViewColumn.Nine
+			return vscode.ViewColumn.Nine;
 		default:
-			return vscode.ViewColumn.Beside
+			return vscode.ViewColumn.Beside;
 	}
 }
 export function getSettings(): ISettings {
